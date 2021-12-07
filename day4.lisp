@@ -1,7 +1,7 @@
 ;;; Code for Advent of Code 2021, Day 4.
 ;;;
 ;;; Code author: Russell A. Edson
-;;; Date last modified: 05/12/2021
+;;; Date last modified: 07/12/2021
 
 ;;; Problem 1
 ;; We are given a list of bingo numbers, as well as a collection of
@@ -108,7 +108,7 @@
 ;; So the 11th board in the list (indexed from 0) wins on turn 22,
 ;; with score:
 (score (elt bingo-boards 11) bingo-numbers)
-;;=> 10406
+;;=> 23177
 
 
 ;;; Problem 2
